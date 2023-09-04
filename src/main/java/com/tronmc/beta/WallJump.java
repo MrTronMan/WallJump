@@ -55,7 +55,7 @@ public final class WallJump extends JavaPlugin {
     @Override
     public void onEnable() {
         playerManager = new PlayerManager();
-        getLogger().info("WallJump for 1.19.4 has loaded.");
+        getLogger().info("WallJump for 1.20.1 has loaded.");
         registerEvents(
                 new PlayerJoinListener(),
                 new PlayerQuitListener(),
@@ -83,7 +83,7 @@ public final class WallJump extends JavaPlugin {
         plugin = this;
         config = new WallJumpConfiguration("config.yml");
         dataConfig = new WallJumpConfiguration("data.yml");
-        getLogger().info("WallJump for 1.19.4 is loading...");
+        getLogger().info("WallJump for 1.20.1 is loading...");
         Plugin worldGuardPlugin = getServer().getPluginManager().getPlugin("WorldGuard");
         if (worldGuardPlugin != null) {
             worldGuard = new WorldGuardHandler(worldGuardPlugin, this);
