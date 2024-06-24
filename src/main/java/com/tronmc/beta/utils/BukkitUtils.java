@@ -51,7 +51,9 @@ public class BukkitUtils {
         V1_16(16),
         V1_17(17),
         V1_18(18),
-        V1_19(19);
+        V1_19(19),
+        V1_20(20),
+        V1_21(21);
 
         public final int versionInt;
 

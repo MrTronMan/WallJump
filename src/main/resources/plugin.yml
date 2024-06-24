@@ -1,5 +1,5 @@
 name: WallJump
-version: 3.2
+version: 3.3
 main: com.tronmc.beta.WallJump
 api-version: 1.20
 softdepend: [WorldGuard, TreysDoubleJump]

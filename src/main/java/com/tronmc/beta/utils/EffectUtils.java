@@ -21,7 +21,7 @@ public class EffectUtils {
         else //1.13+
             data = block.getBlockData();
         player.getWorld().spawnParticle(
-                Particle.BLOCK_DUST,
+                Particle.BLOCK,
                 location.clone().add(facing.xOffset*0.3, facing.yOffset*0.3-0.3, facing.zOffset*0.3),
                 count,
                 0.2f,
